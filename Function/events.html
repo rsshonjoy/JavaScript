@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        body{
+            background-color: #34495e;
+            color: cyan;
+        }
+        button{
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <!-- Step 1 -->
+
+    <h1 onmouseover="handleover()">Exploring Events</h1>
+    <button onclick="handleClick()">Click Me</button>
+
+
+    <!-- Step 2 -->
+    <button>Click Me-1</button>
+    <button id="second">Click Me-2</button>
+    <button>Click Me-3</button>
+    <button id="lastPerson">Click Me-4</button>
+
+    <script>
+        // Step 1
+
+        // function handleClick(){
+        //     console.log("Someone Cicked Me")
+        // }
+        // function handleover(){
+        //     console.log("Someone Over Me")
+        // }
+
+
+        // Step 2
+
+        function handleClick(){
+            document.body.style.background = 'cyan'
+        }
+
+        const secondButton = document.getElementById('second');
+        // Option 1
+        secondButton.onsubmitOrder() = handleClick;
+
+        // Option 2
+        secondButton.addEventListener('click', handleClick)
+
+        // Option 3 
+        document.getElementById('lastPerson').addEventListener('click', function(){
+            document.body.style.color = 'tomato';
+        })
+    </script>
+</body>
+</html>
