@@ -19,7 +19,13 @@
         }
         loadData()
         function displayData(data) {
-            console.log(data);
+            const parentNode = document.getElementById('myList');
+            for (let i = 0; i < data.length; i++) {
+                const user = data[i];
+                const item = document.createElement('li');
+                item.innerText = user.name;
+                parentNode.appendChild(item);
+            }
             
         }
     </script>
