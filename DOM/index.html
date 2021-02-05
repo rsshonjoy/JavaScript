@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        body{
-            background-color: #34495e;
-            color: white;
-        }
-        article{
-            border: 2px solid goldenrod;
-            border-radius: 20px;
-            margin: 5px;
-            padding: 5px;
-        }
+      body {
+        background-color: #34495e;
+        color: white;
+      }
+      article {
+        border: 2px solid goldenrod;
+        border-radius: 20px;
+        margin: 5px;
+        padding: 5px;
+      }
     </style>
     <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <main>
-        <section>
-            <article>
-                <h3>article-1</h3>
-                <p class="author">author-1</p>
-                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque facilis assumenda voluptates aliquam doloribus dolores beatae inventore, earum molestias ipsa corporis dicta ea accusantium sunt ullam, consequatur pariatur, tenetur sit.</p>
-            </article>
-            <article class="special">
-                <h3>article-2</h3>
-                <p class="author">author-2</p>
-                <p class="description">Eaque quos harum at beatae qui ad culpa architecto praesentium earum quibusdam corporis nemo amet fuga autem, consectetur exercitationem omnis, voluptatibus officiis accusamus aut, perspiciatis delectus ea ipsum. Accusantium, facere.</p>
-            </article>
-            <article class="special">
-                <h3>article-3</h3>
-                <p class="author">author-3</p>
-                <p class="description">Harum nostrum fuga veniam cum esse dignissimos, eveniet quod quas nam dolores sunt soluta, quam molestiae quibusdam ullam optio tempore consequatur temporibus quasi. Similique sunt necessitatibus ad expedita voluptates molestiae?</p>
-            </article>
-        </section>
+      <section>
+        <article>
+          <h3>article-1</h3>
+          <p class="author">author-1</p>
+          <p class="description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            facilis assumenda voluptates aliquam doloribus dolores beatae
+            inventore, earum molestias ipsa corporis dicta ea accusantium sunt
+            ullam, consequatur pariatur, tenetur sit.
+          </p>
+        </article>
+        <article class="special">
+          <h3>article-2</h3>
+          <p class="author">author-2</p>
+          <p class="description">
+            Eaque quos harum at beatae qui ad culpa architecto praesentium earum
+            quibusdam corporis nemo amet fuga autem, consectetur exercitationem
+            omnis, voluptatibus officiis accusamus aut, perspiciatis delectus ea
+            ipsum. Accusantium, facere.
+          </p>
+        </article>
+        <article class="special">
+          <h3>article-3</h3>
+          <p class="author">author-3</p>
+          <p class="description">
+            Harum nostrum fuga veniam cum esse dignissimos, eveniet quod quas
+            nam dolores sunt soluta, quam molestiae quibusdam ullam optio
+            tempore consequatur temporibus quasi. Similique sunt necessitatibus
+            ad expedita voluptates molestiae?
+          </p>
+        </article>
+      </section>
     </main>
 
     <script>
-        var authors = document.querySelectorAll('.special h3');
-        for(var i = 0; i < authors.length; i++){
-            var element = authors[i];
-            // console.log(element.innerHTML)
-            element.innerHTML = 'Lekhok - ' + i;
-            element.style.backgroundColor = "lightblue"
-        }
+      var authors = document.querySelectorAll('.special h3');
+      for (var i = 0; i < authors.length; i++) {
+        var element = authors[i];
+        // console.log(element.innerHTML)
+        element.innerHTML = 'Lekhok - ' + i;
+        element.style.backgroundColor = 'lightblue';
+      }
     </script>
-</body>
+  </body>
 </html>

@@ -8,7 +8,6 @@
 //     console.log("condition is false")
 // }
 
-
 /**-----Step 2 -----*/
 
 // const first = 37;
@@ -18,7 +17,6 @@
 // }else{
 //     console.log("condition is false")
 // }
-
 
 /**-----Step 3 -----*/
 
@@ -33,10 +31,9 @@
 /**-----Step 4 -----*/
 
 const first = 37;
-const second = "37";
+const second = '37';
 if (first === second) {
-    console.log("condition is true");
-}else{
-    console.log("condition is false")
+  console.log('condition is true');
+} else {
+  console.log('condition is false');
 }
-
