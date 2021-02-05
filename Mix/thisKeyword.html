@@ -16,7 +16,15 @@
                 return 'Mr. ' + this.name;
             }
         }
+        // myObj.getFullName();
+        const anotherObj = {
+            name: 'Biddut Ali'
+        }
+        anotherObj.getFullName = myObj.getFullName;
+        console.log(anotherObj.getFullName);
+        
         myObj.getFullName();
+        anotherObj.getFullName();
     </script>
 </body>
 </html>
