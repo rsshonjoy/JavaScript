@@ -96,17 +96,17 @@
 
 /**----- multiline map in array -----*/
 
-const students = [
-    {id: 21, name: 'Shonjoy'},
-    {id: 31, name: 'Joy'},
-    {id: 41, name: 'Raj'},
-    {id: 71, name: 'Shouvo'},
-]
+// const students = [
+//     {id: 21, name: 'Shonjoy'},
+//     {id: 31, name: 'Joy'},
+//     {id: 41, name: 'Raj'},
+//     {id: 71, name: 'Shouvo'},
+// ]
 
-const names = students.map(s => {
-    return s.name;
-});
-console.log(names);
+// const names = students.map(s => {
+//     return s.name;
+// });
+// console.log(names);
 
 
 
@@ -137,12 +137,12 @@ console.log(names);
 
 /**----- find in array -----*/
 
-// const students = [
-//     {id: 21, name: 'Shonjoy'},
-//     {id: 31, name: 'Joy'},
-//     {id: 41, name: 'Raj'},
-//     {id: 71, name: 'Shouvo'},
-// ]
+const students = [
+    {id: 21, name: 'Shonjoy'},
+    {id: 31, name: 'Joy'},
+    {id: 41, name: 'Raj'},
+    {id: 71, name: 'Shouvo'},
+]
 
-// const ids = students.find(s => s.id>50);
-// console.log(ids);
+const ids = students.find(s => s.id>50);
+console.log(ids);
