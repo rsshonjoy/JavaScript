@@ -17,6 +17,7 @@ let food = money > 100 ? 'birayni' : 'alur vorta';
 console.log(food);
 
 
+// using && and  ||
 
 const active = false;
 
@@ -25,12 +26,3 @@ const y = active || 5;
 
 console.log(x);
 console.log(y);
-
-
-// String to Number
-const number = + '37'
-console.log(number);
-
-// number to String
-const numText = 37 + '';
-console.log(numText);
