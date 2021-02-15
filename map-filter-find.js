@@ -94,7 +94,7 @@
 // console.log(ids);
 
 
-/**----- forEach in array -----*/
+/**----- multiline map in array -----*/
 
 const students = [
     {id: 21, name: 'Shonjoy'},
@@ -103,7 +103,23 @@ const students = [
     {id: 71, name: 'Shouvo'},
 ]
 
-students.forEach(s => console.log(s.name))
+const names = students.map(s => {
+    return s.name;
+});
+console.log(names);
+
+
+
+/**----- forEach in array -----*/
+
+// const students = [
+//     {id: 21, name: 'Shonjoy'},
+//     {id: 31, name: 'Joy'},
+//     {id: 41, name: 'Raj'},
+//     {id: 71, name: 'Shouvo'},
+// ]
+
+// students.forEach(s => console.log(s.name))
 
 
 /**----- filter in array -----*/
