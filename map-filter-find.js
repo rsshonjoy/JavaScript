@@ -94,6 +94,18 @@
 // console.log(ids);
 
 
+/**----- forEach in array -----*/
+
+const students = [
+    {id: 21, name: 'Shonjoy'},
+    {id: 31, name: 'Joy'},
+    {id: 41, name: 'Raj'},
+    {id: 71, name: 'Shouvo'},
+]
+
+students.forEach(s => console.log(s.name))
+
+
 /**----- filter in array -----*/
 
 // const students = [
@@ -109,12 +121,12 @@
 
 /**----- find in array -----*/
 
-const students = [
-    {id: 21, name: 'Shonjoy'},
-    {id: 31, name: 'Joy'},
-    {id: 41, name: 'Raj'},
-    {id: 71, name: 'Shouvo'},
-]
+// const students = [
+//     {id: 21, name: 'Shonjoy'},
+//     {id: 31, name: 'Joy'},
+//     {id: 41, name: 'Raj'},
+//     {id: 71, name: 'Shouvo'},
+// ]
 
-const ids = students.find(s => s.id>50);
-console.log(ids);
+// const ids = students.find(s => s.id>50);
+// console.log(ids);
