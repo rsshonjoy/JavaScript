@@ -54,8 +54,16 @@
 
 // method 2
 
-const {name, age} = {id: 2, name: 'Joy', age: '19', salary: 3700}
+// const {name, age} = {id: 2, name: 'Joy', age: '19', salary: 3700}
 
-console.log(name, age);
-console.log(name, age);
-console.log(name, age);
+// console.log(name, age);
+// console.log(name, age);
+// console.log(name, age);
+
+
+// method 3
+
+const person = {id: 2, name: 'Joy', age: '19', salary: 3700};
+const {salary} = person;
+
+console.log(salary);
