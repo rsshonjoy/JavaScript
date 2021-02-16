@@ -21,9 +21,21 @@
 
 // Step 4
 
+// function boxify(num) {
+//     return [num, num + 5];
+// }
+
+// const boxer = boxify(37);
+// console.log(boxer);
+
+
+// Step 5
+
+
+
 function boxify(num) {
     return [num, num + 5];
 }
 
-const boxer = boxify(37);
-console.log(boxer);
+const [box1, box2] = boxify(37);
+console.log(box1, box2);
