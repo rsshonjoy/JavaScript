@@ -1,4 +1,6 @@
-// Step 1
+/** ----- array destructuring ----- */
+
+// method 1
 
 // const numbers = [18, 19];
 // const x = numbers[0];
@@ -6,20 +8,20 @@
 // console.log(x, y);
 
 
-// Step 2
+// method 2
 
 // const [x, y] =  [18, 19];
 // console.log(x, y);
 
 
-// Step 3
+// method 3
 
 // const numbers = [18, 19];
 // const [x, y] =  numbers;
 // console.log(x, y);
 
 
-// Step 4
+// method 4
 
 // function boxify(num) {
 //     return [num, num + 5];
@@ -29,13 +31,20 @@
 // console.log(boxer);
 
 
-// Step 5
+// method 5
+
+// function boxify(num) {
+//     return [num, num + 5];
+// }
+
+// const [box1, box2] = boxify(37);
+// console.log(box1, box2);
 
 
 
-function boxify(num) {
-    return [num, num + 5];
-}
+/** ----- object destructuring ----- */
 
-const [box1, box2] = boxify(37);
-console.log(box1, box2);
+const person = {name: 'Joy', age: '19'}
+console.log(person.name, person.age);
+console.log(person.name, person.age);
+console.log(person.name, person.age);
