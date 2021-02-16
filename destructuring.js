@@ -44,7 +44,18 @@
 
 /** ----- object destructuring ----- */
 
-const person = {name: 'Joy', age: '19'}
-console.log(person.name, person.age);
-console.log(person.name, person.age);
-console.log(person.name, person.age);
+// method 1
+
+// const person = {name: 'Joy', age: '19'}
+// console.log(person.name, person.age);
+// console.log(person.name, person.age);
+// console.log(person.name, person.age);
+
+
+// method 2
+
+const {name, age} = {id: 2, name: 'Joy', age: '19', salary: 3700}
+
+console.log(name, age);
+console.log(name, age);
+console.log(name, age);
