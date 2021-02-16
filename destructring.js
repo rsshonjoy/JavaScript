@@ -14,6 +14,16 @@
 
 // Step 3
 
-const numbers = [18, 19];
-const [x, y] =  numbers;
-console.log(x, y);
+// const numbers = [18, 19];
+// const [x, y] =  numbers;
+// console.log(x, y);
+
+
+// Step 4
+
+function boxify(num) {
+    return [num, num + 5];
+}
+
+const boxer = boxify(37);
+console.log(boxer);
