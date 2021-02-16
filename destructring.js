@@ -8,5 +8,12 @@
 
 // Step 2
 
-const [x, y] =  [18, 19];
+// const [x, y] =  [18, 19];
+// console.log(x, y);
+
+
+// Step 3
+
+const numbers = [18, 19];
+const [x, y] =  numbers;
 console.log(x, y);
