@@ -5,6 +5,7 @@ const filter = nums.filter(num => num > 20);
 const find = nums.find(num => num > 20);
 // const reduce = nums.reduce((sum, num) => sum + num, 0);
 const reduce = nums.reduce((sum, num) => {
+  console.log(sum, num);
   return sum + num
 }, 0);
 
